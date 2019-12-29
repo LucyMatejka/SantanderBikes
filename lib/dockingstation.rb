@@ -16,4 +16,10 @@ class DockingStation
 #    @bike
 #  end
 #return the docked bike
+
+def release_bike
+  fail 'No bikes available' unless @bike
+  @bike
+end
+#error catching line first- guard condition
 end
